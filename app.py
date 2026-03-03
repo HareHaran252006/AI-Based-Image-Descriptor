@@ -24,7 +24,7 @@ st.set_page_config(page_title="NR Image Descriptor", layout="wide")
 st.title("🖼️ NR Image Descriptor and Content Modifier")
 
 # ------------------- API KEY -------------------
-GEMINI_API_KEY = "AIzaSyACWRc1oFANxMdbJk-NxTs-Y3N7I19e0Uo"   # replace with your key
+GEMINI_API_KEY = ""   # replace with your key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ------------------- FIXED MODEL -------------------
@@ -150,7 +150,8 @@ with tabs[1]:
 # ------------------- CONTACT TAB -------------------
 with tabs[2]:
     st.subheader("📞 Contact Information")
-    st.write("**Owner:** Naveen Raj K")
+    st.write("**Owner:** Hareharan")
     st.write("**Phone:** +91 7501199896")
     st.write("**Address:** Nagercoil, India")
-    st.write("**Email:** naveenmadhan86@gmail.com")
+
+    st.write("**Email:** hareharantj@gmail.com")
